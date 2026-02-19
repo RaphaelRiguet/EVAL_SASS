@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
   background-color: rgb(235, 235, 235);
 }
@@ -115,6 +116,206 @@ section {
 .card__container-btn--five a {
   color: white;
   text-decoration: none;
+=======
+.container h2 {
+  font-weight: bold;
+}
+.container__grille {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container__grille__col-12 {
+  width: 100%;
+  background-color: blue;
+  height: 50px;
+  border-radius: 10px;
+  color: white;
+  margin-top: 10px;
+}
+.container__grille__col-6-bleu {
+  width: 50%;
+  background-color: blue;
+  height: 50px;
+  border-radius: 10px;
+  color: white;
+  margin-top: 10px;
+}
+.container__grille__col-6-gris {
+  width: 50%;
+  background-color: gray;
+  height: 50px;
+  border-radius: 10px;
+  color: white;
+  margin-top: 10px;
+}
+.container__grille__col-4-bleu {
+  width: 33.3%;
+  background-color: blue;
+  height: 50px;
+  border-radius: 10px;
+  color: white;
+  margin-top: 10px;
+}
+.container__grille__col-4-gris {
+  width: 33.3%;
+  background-color: gray;
+  height: 50px;
+  border-radius: 10px;
+  color: white;
+  margin-top: 10px;
+}
+.container__grille__col-3-bleu {
+  width: 25%;
+  background-color: blue;
+  height: 50px;
+  border-radius: 10px;
+  color: white;
+  margin-top: 10px;
+}
+.container__grille__col-3-gris {
+  width: 25%;
+  background-color: gray;
+  height: 50px;
+  border-radius: 10px;
+  color: white;
+  margin-top: 10px;
+}
+
+@media (max-width: 767px) {
+  .container__grilleresponsive {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .container__grilleresponsive-bleu {
+    width: 40%;
+    background-color: blue;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 10px;
+  }
+  .container__grilleresponsive-gris {
+    width: 40%;
+    background-color: gray;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .container__grilleresponsive {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .container__grilleresponsive-bleu {
+    width: 48%;
+    background-color: blue;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 10px;
+  }
+  .container__grilleresponsive-gris {
+    width: 48%;
+    background-color: gray;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container__grilleresponsive {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .container__grilleresponsive-bleu {
+    width: 24%;
+    background-color: blue;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 10px;
+  }
+  .container__grilleresponsive-gris {
+    width: 24%;
+    background-color: gray;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 10px;
+  }
+}
+
+button.button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  color: #ffffff;
+}
+button.button--primary {
+  background-color: #241edb;
+}
+button.button--primary--rounded {
+  border-radius: 50px;
+  background-color: #241edb;
+}
+button.button--primary--output {
+  background-color: #ffffff;
+  color: #17a2b8;
+  border: 2px solid #17a2b8;
+}
+button.button--secondary {
+  background-color: #6c757d;
+}
+button.button--secondary--rounded {
+  border-radius: 50px;
+  background-color: #6c757d;
+}
+button.button--secondary--output {
+  background-color: #ffffff;
+  color: #6c757d;
+  border: 2px solid #6c757d;
+}
+button.button--success {
+  background-color: #28a745;
+}
+button.button--danger {
+  background-color: #dc3545;
+}
+button.button--warning {
+  background-color: #ffc107;
+}
+button.button--info {
+  background-color: #07c1ff;
+}
+button.button--small {
+  padding: 6px 12px;
+  font-size: 12px;
+  background-color: #241edb;
+}
+button.button--large {
+  padding: 16px 32px;
+  font-size: 18px;
+  background-color: #241edb;
+}
+button.button--full-width {
+  background-color: #241edb;
+  width: 100%;
+>>>>>>> main
 }
 
 /*# sourceMappingURL=style.css.map */
