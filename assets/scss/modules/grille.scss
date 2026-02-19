@@ -1,24 +1,29 @@
-@use "./templates.scss";
-
-@mixin telephone{
-    @media (max-width: templates.$telephone){
-        @content;
-    }
-}
+@use "../templates.scss";
 
 .container{
 
-    &__grilleresponsive{
-        @include telephone{
-            display: flex !important;
-            flex-direction: column !important;
-            justify-content: center;
-            align-items: center;
-            gap: 10px;
-            
+    h2{
+        font-weight: bold;
+    }
 
+    &__grille{
+        display: flex;
+        flex-wrap: wrap;
+        
+
+        &__col-12{
+            width: 100%;
+            background-color: blue;
+            height: 50px;
+            border-radius: 10px;
+            color: white;
+            margin-top: 10px;
+
+        }
+
+        &__col-6{
             &-bleu{
-                width: 40%;
+                width: 50%;
                 background-color: blue;
                 height: 50px;
                 border-radius: 10px;
@@ -26,7 +31,7 @@
                 margin-top: 10px;
             }
             &-gris{
-                width: 40%;
+                width: 50%;
                 background-color: gray;
                 height: 50px;
                 border-radius: 10px;
@@ -34,28 +39,10 @@
                 margin-top: 10px;
             }
         }
-    }
-}
 
-@mixin tablette{
-    @media (min-width: 768px) and (max-width: templates.$tablette){
-        @content;
-    }
-}
-
-.container{
-
-    &__grilleresponsive{
-        @include tablette(){
-            display: flex !important;
-            flex-wrap: wrap !important;
-            justify-content: center;
-            align-items: center;
-            gap: 10px;
-            
-
+        &__col-4{
             &-bleu{
-                width: 48%;
+                width: 33.3%;
                 background-color: blue;
                 height: 50px;
                 border-radius: 10px;
@@ -63,7 +50,7 @@
                 margin-top: 10px;
             }
             &-gris{
-                width: 48%;
+                width: 33.3%;
                 background-color: gray;
                 height: 50px;
                 border-radius: 10px;
@@ -71,28 +58,10 @@
                 margin-top: 10px;
             }
         }
-    }
-}
 
-@mixin desktop{
-    @media (min-width: templates.$desktop){
-        @content;
-    }
-}
-
-.container{
-
-    &__grilleresponsive{
-        @include desktop(){
-            display: flex !important;
-            flex-wrap: wrap !important;
-            justify-content: center;
-            align-items: center;
-            gap: 10px;
-            
-
+        &__col-3{
             &-bleu{
-                width: 24%;
+                width: 25%;
                 background-color: blue;
                 height: 50px;
                 border-radius: 10px;
@@ -100,14 +69,13 @@
                 margin-top: 10px;
             }
             &-gris{
-                width: 24%;
+                width: 25%;
                 background-color: gray;
                 height: 50px;
                 border-radius: 10px;
                 color: white;
                 margin-top: 10px;
             }
-        }
     }
 }
-
+}

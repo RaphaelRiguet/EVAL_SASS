@@ -1,3 +1,145 @@
+.container h2 {
+  font-weight: bold;
+}
+.container__grille {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container__grille__col-12 {
+  width: 100%;
+  background-color: blue;
+  height: 50px;
+  border-radius: 10px;
+  color: white;
+  margin-top: 10px;
+}
+.container__grille__col-6-bleu {
+  width: 50%;
+  background-color: blue;
+  height: 50px;
+  border-radius: 10px;
+  color: white;
+  margin-top: 10px;
+}
+.container__grille__col-6-gris {
+  width: 50%;
+  background-color: gray;
+  height: 50px;
+  border-radius: 10px;
+  color: white;
+  margin-top: 10px;
+}
+.container__grille__col-4-bleu {
+  width: 33.3%;
+  background-color: blue;
+  height: 50px;
+  border-radius: 10px;
+  color: white;
+  margin-top: 10px;
+}
+.container__grille__col-4-gris {
+  width: 33.3%;
+  background-color: gray;
+  height: 50px;
+  border-radius: 10px;
+  color: white;
+  margin-top: 10px;
+}
+.container__grille__col-3-bleu {
+  width: 25%;
+  background-color: blue;
+  height: 50px;
+  border-radius: 10px;
+  color: white;
+  margin-top: 10px;
+}
+.container__grille__col-3-gris {
+  width: 25%;
+  background-color: gray;
+  height: 50px;
+  border-radius: 10px;
+  color: white;
+  margin-top: 10px;
+}
+
+@media (max-width: 767px) {
+  .container__grilleresponsive {
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .container__grilleresponsive-bleu {
+    width: 40%;
+    background-color: blue;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 10px;
+  }
+  .container__grilleresponsive-gris {
+    width: 40%;
+    background-color: gray;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .container__grilleresponsive {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .container__grilleresponsive-bleu {
+    width: 48%;
+    background-color: blue;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 10px;
+  }
+  .container__grilleresponsive-gris {
+    width: 48%;
+    background-color: gray;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container__grilleresponsive {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .container__grilleresponsive-bleu {
+    width: 24%;
+    background-color: blue;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 10px;
+  }
+  .container__grilleresponsive-gris {
+    width: 24%;
+    background-color: gray;
+    height: 50px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 10px;
+  }
+}
+
 button.button {
   padding: 10px 20px;
   border: none;
