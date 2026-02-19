@@ -1,3 +1,122 @@
+<<<<<<< HEAD
+body {
+  background-color: rgb(235, 235, 235);
+}
+
+section {
+  margin: 0 10rem;
+}
+
+.container-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.card {
+  background-color: white;
+  width: 20rem;
+  height: 28rem;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+.card--primary {
+  width: 20rem;
+  height: 26rem;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+.card--secondary {
+  width: 30rem;
+  height: 12rem;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+.card__btn--alignement {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card__img {
+  width: 20rem;
+  border-radius: 10px;
+}
+.card__body {
+  text-align: center;
+}
+.card p {
+  padding: 10px;
+}
+.card a {
+  color: rgb(0, 119, 255);
+  border: 2px solid rgb(0, 119, 255);
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 50px;
+}
+.card__container-btn {
+  background-color: rgb(235, 235, 235);
+  padding: 15px;
+  margin: 20px;
+  border-radius: 0px 0px 5px 5px;
+}
+.card__container-btn--primary {
+  background-color: blue;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 20px;
+}
+.card__container-btn--primary a {
+  color: white;
+  text-decoration: none;
+}
+.card__container-btn--secondary {
+  background-color: gray;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 20px;
+}
+.card__container-btn--secondary a {
+  color: white;
+  text-decoration: none;
+}
+.card__container-btn--third {
+  background-color: green;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 20px;
+}
+.card__container-btn--third a {
+  color: white;
+  text-decoration: none;
+}
+.card__container-btn--four {
+  background-color: blue;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 20px;
+  max-width: 100px;
+  justify-self: center;
+}
+.card__container-btn--four a {
+  color: white;
+  text-decoration: none;
+}
+.card__container-btn--five {
+  background-color: blue;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 20px;
+  max-width: 100px;
+  justify-self: center;
+}
+.card__container-btn--five a {
+  color: white;
+  text-decoration: none;
+=======
 .container h2 {
   font-weight: bold;
 }
@@ -196,6 +315,7 @@ button.button--large {
 button.button--full-width {
   background-color: #241edb;
   width: 100%;
+>>>>>>> main
 }
 
 /*# sourceMappingURL=style.css.map */
