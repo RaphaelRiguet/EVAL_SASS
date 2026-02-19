@@ -4,91 +4,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu</title>
+    <title>Eval SASS</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     
-    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-    <h1>Menu</h1>
+    <section>
+        <h1>Composant Carte</h1>
+        <h2>Carte "Playground" (d'après image)</h2>
 
-    <div class="carte">
-        <section id="entrees">
-            <h2></h2> 
-            <div class="listeentrees">
-                <div class="entree">
-                    <div class="nom"></div>
-                    <div class="prix"></div>
-                </div>
-                <div class="entree">
-                    <div class="nom"></div>
-                    <div class="prix"></div>
-                </div>
-                <div class="entree">
-                    <div class="nom"></div>
-                    <div class="prix"></div>
+        <div class="container-card">
+            <div class="card">
+                <img src="https://images.pexels.com/photos/5240547/pexels-photo-5240547.jpeg" class="card__img" alt="Playground">
+                <div class="card__body">
+                    <h3 class="card-title">Playground</h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quam qui repellat architecto facere? Illum laborum.</p>
+                    <div class="card__container-btn">
+                        <a href="#" class="btn btn-primary">Go Anywhere</a>
+                    </div>
                 </div>
             </div>
-        </section>
-    
-        <section id="plats">
-            <h2>Plats</h2> 
-            <div class="listeplats">
-                <div class="plat">
-                    <div class="nom"></div>
-                    <div class="prix"></div>
-                </div>
-                <div class="plat">
-                    <div class="nom"></div>
-                    <div class="prix"></div>
-                </div>
-                <div class="plat">
-                    <div class="nom"></div>
-                    <div class="prix"></div>
-                </div>
-                <div class="plat">
-                    <div class="nom"></div>
-                    <div class="prix"></div>
+        </div>
+
+        <h2>Galerie de Cartes</h2>
+
+        <div class="container-card">
+            <div class="card--primary">
+                <img src="https://images.pexels.com/photos/270360/pexels-photo-270360.jpeg" class="card__img" alt="Développement">
+                <div class="card__body">
+                    <h3 class="card-title">Développement</h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quam qui repellat architecto facere? Illum laborum.</p>
+                    <div class="card__container-btn--primary">
+                        <a href="#" class="btn">En savoir plus</a>
+                    </div>
                 </div>
             </div>
-        </section>
-    
-        <section id="dessert">
-            <h2></h2> 
-            <div class="listedessert">
-                <div class="dessert">
-                    <div class="nom"></div>
-                    <div class="prix"></div>
+
+            <div class="card--primary">
+                <img src="https://images.pexels.com/photos/326503/pexels-photo-326503.jpeg" class="card__img" alt="Design">
+                <div class="card__body">
+                    <h3 class="card-title">Design</h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quam qui repellat architecto facere? Illum laborum.</p>
+                    <div class="card__container-btn--secondary">
+                        <a href="#" class="btn">Découvrir</a>
+                    </div>
                 </div>
-                <div class="dessert">
-                    <div class="nom"></div>
-                    <div class="prix"></div>
-                </div>
-                <div class="dessert">
-                    <div class="nom"></div>
-                    <div class="prix"></div>
-                </div>
-                <div class="dessert">
-                    <div class="nom"></div>
-                    <div class="prix"></div>
-                </div>
-                <div class="dessert">
-                    <div class="nom"></div>
-                    <div class="prix"></div>
-                </div>
-                <div class="note"></div>
             </div>
-        </section>
-    </div>
 
-    
+            <div class="card--primary">
+                <img src="https://images.pexels.com/photos/5256816/pexels-photo-5256816.jpeg" class="card__img" alt="Collaboration">
+                <div class="card__body">
+                    <h3 class="card-title">Collaboration</h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quam qui repellat architecto facere? Illum laborum.</p>
+                    <div class="card__container-btn--third">
+                        <a href="#" class="btn">Commencer</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-    <div class="commande">
-        <p></p>
-        <button></button>
-    </div>
-    
-    
+        <h2>Carte sans Image</h2>
+
+        <div class="container-card">
+            <div class="card--secondary">
+                <div class="card__body">
+                    <h3 class="card-title">Titre de la carte</h3>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quam qui repellat architecto facere? Illum laborum.</p>
+                    <div class="card__btn--alignement">
+                        <div class="card__container-btn--four">
+                            <a href="#" class="btn">Action 1</a>
+                        </div>
+                        <div class="card__container-btn--five">
+                            <a href="#" class="btn">Action 2</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
