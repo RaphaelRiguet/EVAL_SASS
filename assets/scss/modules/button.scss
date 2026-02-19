@@ -1,0 +1,94 @@
+
+button {
+
+    &.button {
+    padding: 10px 20px;
+    border: none;   
+    border-radius: 4px;
+    font-size: 16px;
+    color: #ffffff;
+
+    &--primary {
+    background-color: #241edb;
+        &--rounded {
+    border-radius: 50px;
+    background-color: #241edb;
+        }
+        &--output {
+    background-color: #ffffff;
+    color: #17a2b8;
+    border: 2px solid #17a2b8;
+        }
+    }
+
+    &--secondary {
+        background-color: #6c757d;
+        &--rounded {
+    border-radius: 50px;
+    background-color: #6c757d;
+        }
+        &--output {
+    background-color: #ffffff;
+    color: #6c757d;
+    border: 2px solid #6c757d;
+        }
+    }
+
+    &--success {
+    background-color: #28a745;
+ 
+    }
+
+    &--danger {
+    background-color: #dc3545;
+
+    }
+    &--warning {
+    background-color: #ffc107;
+
+    }
+        &--info {
+    background-color: #07c1ff;
+
+    }
+
+
+
+
+    &--small {
+    padding: 6px 12px;
+    font-size: 12px;
+    background-color: #241edb;
+    
+    }
+
+    &--large {
+    padding: 16px 32px;
+    font-size: 18px;
+    background-color: #241edb;
+    }
+
+    &--full-width {
+    background-color: #241edb;
+
+    width: 100%;
+    }
+
+    
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
