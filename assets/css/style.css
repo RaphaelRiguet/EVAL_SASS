@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .container h2 {
   font-weight: bold;
 }
@@ -139,7 +138,8 @@
     color: white;
     margin-top: 10px;
   }
-=======
+}
+
 button.button {
   padding: 10px 20px;
   border: none;
@@ -196,7 +196,6 @@ button.button--large {
 button.button--full-width {
   background-color: #241edb;
   width: 100%;
->>>>>>> main
 }
 
 /*# sourceMappingURL=style.css.map */
