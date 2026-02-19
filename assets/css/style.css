@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body {
   background-color: rgb(235, 235, 235);
 }
@@ -116,7 +115,8 @@ section {
 .card__container-btn--five a {
   color: white;
   text-decoration: none;
-=======
+}
+
 .container h2 {
   font-weight: bold;
 }
@@ -315,7 +315,6 @@ button.button--large {
 button.button--full-width {
   background-color: #241edb;
   width: 100%;
->>>>>>> main
 }
 
 /*# sourceMappingURL=style.css.map */
